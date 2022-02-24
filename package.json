@@ -1,0 +1,23 @@
+{
+  "name": "neko",
+  "version": "1.0.0",
+  "author": "saibayadon",
+  "main": "build/app.js",
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "description": "node.js + typescript starter",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=dev node --no-warnings --loader ts-node/esm src/app.ts",
+    "build": "rm -rf ./build && tsc",
+    "lint": "eslint src --ext .ts"
+  },
+  "type": "module"
+}
