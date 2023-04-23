@@ -2,11 +2,11 @@
 ## Node.js & TypeScript
 
 ### Defaults
-- **TypeScript 4.4.4**
+- **TypeScript 5.0.2**
 
 ### How to run locally
 - `yarn install`
-- `yarn develop`
+- `yarn start`
 
 ### Build for production
 - `yarn build` -> Will output a dist folder
