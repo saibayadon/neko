@@ -2,7 +2,7 @@
 ## Node.js & TypeScript
 
 ### Defaults
-- **TypeScript 5.0.2**
+- **TypeScript 5.2.2**
 
 ### How to run locally
 - `yarn install`
