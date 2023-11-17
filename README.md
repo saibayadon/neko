@@ -1,5 +1,6 @@
 # 🐈‍⬛
 ## Node.js & TypeScript
+Realistically you should be using Deno or Bun, but hey - I wrote this in the first place so hindsight 20/20.
 
 ### Defaults
 - **TypeScript 5.2.2**
