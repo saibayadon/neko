@@ -1,17 +1,9 @@
 # 🐈‍⬛
-## Node.js & TypeScript
-Realistically you should be using Deno or Bun, but hey - I wrote this in the first place so hindsight 20/20.
-
-### Defaults
-- **TypeScript 5.2.2**
-
+## Bun Starter Kit
 ### How to run locally
-- `yarn install`
-- `yarn start`
-
-### Build for production
-- `yarn build` -> Will output a dist folder
+- `bun install`
+- `bun src/app.ts`
 
 ### Linting
 **ESLint** (Using TypeScript defaults)
-- `yarn lint` -> Will lint all code under `src` folder.
+- `bun run lint` -> Will lint all code under `src` folder.
